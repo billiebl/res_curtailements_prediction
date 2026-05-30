@@ -1,0 +1,70 @@
+# ── Data ──────────────────────────────────────────
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.json
+*.jsonl
+*.xlsx
+
+# ── Models & Artifacts ────────────────────────────
+models/
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# ── Notebooks ─────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment Variables ─────────────────────────
+.env
+.env.*
+*.env
+
+# ── MLflow / Experiment Tracking ──────────────────
+mlruns/
+mlartifacts/
+wandb/
+outputs/
+lightning_logs/
+
+# ── IDE & OS ──────────────────────────────────────
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────
+logs/
+*.log
+*.out
+
+# ── Hugging Face cache ────────────────────────────
+.cache/
+transformers_cache/
